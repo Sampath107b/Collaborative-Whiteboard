@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 import "./Whiteboard.css";
 
 //const socket = io("http://localhost:5000");
-const socket = io("http://localhost:5000", {
+const socket = io("https://collaborative-whiteboard-qpnz.onrender.com", {
   transports: ["websocket"],  // Force WebSocket to avoid polling fallback
 });
 
