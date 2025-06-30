@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #e1bee7);
+}
+
+.board-container {
+  padding: 20px;
+  border-radius: 16px;
+  background-color: linear-gradient(to right, #e1bee7, #e0f7fa);
+  max-width: 900px;
+  margin: 30px auto;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.heading {
+  font-size: 26px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+  background: #ffffff;
+  padding: 12px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar input,
+.toolbar button {
+  font-size: 14px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  background: #f9f9f9;
+}
+
+.whiteboard {
+  border: 3px solid #aaa;
+  border-radius: 12px;
+  background-color: #fff;
+  display: block;
+  margin: auto;
+}
